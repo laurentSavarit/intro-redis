@@ -1,0 +1,12 @@
+###
+
+GET http://localhost:3000/get/age
+
+###
+POST http://localhost:3000/set 
+Content-Type: application/json
+
+{
+    "key":"age",
+    "value":36
+}
